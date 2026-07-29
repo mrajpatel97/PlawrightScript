@@ -1,0 +1,16 @@
+
+{
+    "user1":{
+        "name":"Nagaraju",
+        "email":"raj97@gmail.com",
+        "phone":"9866411205",
+        "address":"Hyderabad"
+    },
+    "user2":{
+        "name":"Sisira",
+        "email":"sis@gmail.com",
+        "phone":"9866411206",
+        "address":"Hyderabad" 
+    }
+}
+

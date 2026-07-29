@@ -1,0 +1,28 @@
+{
+    "default": {
+        "tags": "@API",
+        "dryRun": false,
+        "formatOptions": {
+            "snippetInterface": "async-await"
+        },
+        "paths": [
+            "PlaywrightAutomationCode/FeatureFiles/**/*.feature"
+        ],
+        "require": [
+            "PlaywrightAutomationCode/StepDefinition/**/*.ts",
+            "PlaywrightAutomationCode/StepDefinition/**/*.js"
+        ],
+        "requireModule": [
+            "ts-node/register/transpile-only"
+        ],
+        "format": [
+            "@cucumber/pretty-formatter",
+            "html:test-result/cucumber-report.html",
+            "json:test-result/cucumber-report.json",
+            "rerun:@rerun.txt"
+        ],
+        "parallel": 4,
+        "rerun": 1,
+        "retry": 1
+    }
+}

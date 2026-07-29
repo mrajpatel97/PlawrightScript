@@ -1,0 +1,55 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "verify-the-postman-methods;verify-the-postman-methods",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Verify the postman methods",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I send the get request",
+            "match": {
+              "location": "PlaywrightAutomationCode\\StepDefinition\\API.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 420324799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I verify the api response",
+            "match": {
+              "location": "PlaywrightAutomationCode\\StepDefinition\\API.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16243600
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@API",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "verify-the-postman-methods",
+    "line": 3,
+    "keyword": "Feature",
+    "name": "Verify the Postman methods",
+    "tags": [],
+    "uri": "PlaywrightAutomationCode\\FeatureFiles\\Postman.feature"
+  }
+]
